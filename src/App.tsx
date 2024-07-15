@@ -3,6 +3,7 @@ import About from './Components/About'
 import Header from './Components/Header'
 import Introduction from './Components/Introduction'
 import ProfilePic from './Components/ProfilePic'
+import Progressbar from './Components/Progressbar'
 import Services from './Components/Services'
 import SideBar from './Components/SideBar'
 
@@ -20,6 +21,7 @@ function App() {
           <Services/>
         </div>
         <div className='hidden md:block'>
+          <Progressbar/>
           <ProfilePic />
         </div>
       </div>
