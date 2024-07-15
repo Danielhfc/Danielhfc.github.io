@@ -1,3 +1,6 @@
+
+import reactLogo from '../assets/react.svg'
+
 function Header() {
     const menu = [
         {
@@ -22,9 +25,9 @@ function Header() {
     ]
 
     return (
-        <div className='flex items-center w-screen justify-between border-b-[1px] border-black'>
-            <div className="w-[90px] h-[90px] bg-black">
-                <img src="/logo.png" alt="" className='p-7' />
+        <div className='flex items-center fixed w-full justify-between border-b-[1px] border-black bg-[#242424]'>
+            <div className="w-[90px] h-[90px] bg-white">
+                <img src={reactLogo} alt="" className='p-7' />
             </div>
 
             <div className='hidden md:flex gap-14'>
