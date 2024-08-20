@@ -13,23 +13,19 @@ function App() {
 
   return (
     <>
-    
-      <Header/>
-      <SideBar/>
-      <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3'>
-        <div className='col-span-2'>
-          <Introduction/>
-          <About/>
-          <Services/>
-          <CarouselComponent/>
-        </div>
-        <div className='hidden md:block'>
-          <Progressbar/>
-          <ProfilePic />
-        </div>
+      <div>
+        <Header />
       </div>
-    
       
+      <div className='pt-10'>
+        <Introduction />
+        <About />
+        <Services />
+        <CarouselComponent />
+      </div>
+      
+
+
     </>
   )
 }

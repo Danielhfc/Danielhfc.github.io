@@ -4,21 +4,21 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 function Services() {
     const servicesList = [
         {
-            id:1,
+            id:5,
             title : Strings.FRONTEND,
             desc: Strings.FRONTEND_DESC,
             logo: '../assets/react.svg'           
         },
 
         {
-            id:2,
+            id:6,
             title : Strings.BACKEND,
             desc: Strings.BACKEND_DESC,
             logo: '../assets/react.svg'           
         },
 
         {
-            id:3,
+            id:7,
             title : Strings.ONLINE,
             desc: Strings.ONLINE_DESC,
             logo: '../assets/react.svg'           
