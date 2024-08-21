@@ -13,19 +13,15 @@ function App() {
 
   return (
     <>
-      <div>
         <Header />
-      </div>
-      
-      <div className='pt-10'>
-        <Introduction />
-        <About />
-        <Services />
-        <CarouselComponent />
-      </div>
-      
 
 
+        <div className='mt-20 px-20'>
+          <Introduction />
+          <About />
+          <Services />
+          <CarouselComponent />
+        </div>
     </>
   )
 }
