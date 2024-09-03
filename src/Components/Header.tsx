@@ -28,7 +28,7 @@ function Header() {
 
 
 
-        <div className='flex items-center fixed w-full justify-between border-b-[1px] border-black bg-[#242424] h-[90px]'>
+        <div className='flex items-center fixed w-full justify-between border-b-[1px] border-black bg-[#242424] h-[50px]'>
 
 
             <div className='hidden md:flex gap-14 m-auto pl-20'>
@@ -39,7 +39,7 @@ function Header() {
                 )}
             </div>
 
-            <div className="w-[110px] flex justify-between  items-center text-[50px] mr-20">
+            <div className="w-[65px] flex justify-between  items-center text-[30px] mr-20">
             <span className="cursor-pointer pulse ">
                     <IoLogoGithub color="white"/>
                 </span>
